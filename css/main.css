@@ -1,0 +1,21 @@
+body {
+    background: #24353f;
+}
+h1{
+        color: #17a2b8;
+}
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.form-control {
+    color: white  !important;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+input, textarea {
+    color: white !important; 
+    background-color: transparent !important;
+}

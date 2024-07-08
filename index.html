@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>sign</title>
+</head>
+
+<body>
+<form id="registerform">
+    <span class="d-none" id="username"></span>
+
+<div class="container mx-auto my-5 text-center">
+    <div class="group m-auto w-75 p-5">
+        <h1 class="text-info mb-4 "> Smart Login System</h1>
+        <input id="signname" class="form-control my-3 text-white" placeholder="Enter your name" type="text">
+        <input id="signemail" class="form-control my-3 text-white" placeholder="Enter your email" type="text">
+        <input id="signpassword" class="form-control my-3" placeholder="Enter your password" type="password">
+        <p id="incorrect"></p>
+<div class="alert alert-danger d-none" id="namealert"> at least two character name</div>
+<div class="alert alert-danger d-none" id="emailalert"> please enter a valid email</div>
+<div class="alert alert-danger d-none" id="passwordalert">at least 8 character
+    <br> at least one upper case  <br> at least one special character <br>
+</div>
+<div class="alert alert-danger d-none" id="existlalert">  email is already exist</div>
+<div class="alert alert-success d-none" id="successalert"> you can log in</div>
+
+        <button class="btn btn-outline-info w-100 my-3 ">Login</button>
+        <p class="text-white mt-3 ">Dont have an account?
+             <a class="text-white text-decoration-none" href="../login/login.html">Sign Up</a></p>
+
+    </div>
+</div>
+</form>
+<script src="../bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+
+</html>
